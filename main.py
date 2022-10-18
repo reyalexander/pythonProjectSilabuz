@@ -1,4 +1,5 @@
 
+# Este es la forma recursiva de Fibonacci
 def fibonacci(n):
     if n < 0:
         print("El numero debe ser mayor igual a 0")
@@ -9,7 +10,7 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
-
+# Este es la forma iterativa de Fibonacci
 def fibiter(x):
     f1 = 1
     f2 = 1
